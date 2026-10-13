@@ -1,0 +1,30 @@
+# build outputs
+build/
+out/
+dist/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Ghidra project database and the full decompilation dump (regenerate from vendor/)
+ghidra-project/
+ghidra-project.gpr
+ghidra-project.rep/
+analysis/*.c
+
+# crash dumps and large captures
+*.dmp
+*.etl
+
+# editor / OS noise
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+__pycache__/
+
+# Samsung binaries stay local only (never redistribute); hashes are in vendor/SamsungVST.sha256
+vendor/SamsungVST/
