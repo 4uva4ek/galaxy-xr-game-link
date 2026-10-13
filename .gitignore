@@ -28,3 +28,6 @@ __pycache__/
 
 # Samsung binaries stay local only (never redistribute); hashes are in vendor/SamsungVST.sha256
 vendor/SamsungVST/
+
+# decompilation output (third-party code, local only)
+analysis/
